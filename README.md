@@ -1,9 +1,10 @@
 Keta Heights - Hotel Booking Website
 A modern hotel booking website showcasing luxury apartments and rental properties with a clean, elegant design.
 
-🏨 Overview
+🏨 OVERVIEW
 Keta Heights is a responsive hotel booking website featuring Villa Alpaca's premium apartment rentals. The site offers a seamless browsing experience for travelers looking for luxury accommodations with modern amenities.
-✨ Features
+
+✨ FEATURES
 
 Modern Design: Clean, professional layout optimized for user experience
 Apartment Showcase: Gallery of available rental properties with pricing
@@ -11,7 +12,7 @@ Responsive Layout: Optimized for desktop and mobile devices
 Navigation Menu: Easy access to Home and Bookings sections
 Call-to-Action Buttons: Interactive booking and contact elements
 
-🏠 Sections
+🏠 SECTIONS
 1. Header & Navigation
 
 Brand logo "K3ta Heights"
