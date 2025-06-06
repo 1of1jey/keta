@@ -1,0 +1,269 @@
+header {
+    background-color: transparent;
+    top: 0;
+    width: 100%;
+    z-index: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 18px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #090202;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+nav ul li:hover {
+    color: #dcb31e;
+    border-radius: 10px;
+}
+
+input[type="button"] {
+    background-color: rgba(236, 236, 243, 0.775);
+    color: rgb(6, 0, 0);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 50px; 
+}
+
+input[type="button"]:hover {
+    background-color: #dcb31e;
+}
+
+.firstpage {
+    background-color: black;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: -990px;
+    margin-top: 150px;
+    color: #fff;
+    height: 100vh;
+
+}
+
+#rotten {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 55px;
+    text-align: left;
+    margin-left: 280px;
+    margin-bottom: -10px;
+
+}
+
+#notyy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+#bott {
+    background-color: #fff;
+    margin-left: -135px;
+}
+
+
+#bott:hover {
+    background-color: #dcb31e;
+}
+
+
+.firstpage .image {
+    animation: slideUp 1s ease-out;
+}
+
+.firstpage .image img {
+    height: auto;
+    margin-top: -240px;
+    margin-left: 1850px;
+    border-radius: 30px;
+    z-index: 1;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.secondpage {
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    height: 100vh;
+    border-radius: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 18px;
+
+}
+
+h2 {
+    font-size: larger;
+}
+
+#patent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    justify-content: space-between;
+
+}
+
+#order {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.thirdpage {
+    background-color: black;
+    position: relative;
+    top: -50px;
+    z-index: 7;
+    height: 100vh;
+    border-radius: 30px;
+    font-size: 18px;
+    color: white;
+}
+
+#living {
+    margin-bottom: 100px;
+}
+
+
+
+#apartments {
+    list-style-type: none; 
+    padding: 0;
+    display: flex; 
+    gap: 10px; 
+    justify-content: center;
+    align-items: right;
+}
+
+#apartments img {
+    width: 200px;
+    width: 480px; 
+    height: auto; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    justify-content: center;
+    float: right;
+}
+
+#apartments img:hover {
+    transform: scale(1.1); 
+    transition: transform 0.5s; 
+}
+
+#paper {
+    margin-left: 110px;
+    margin-top: 70px;
+}
+
+#pen {
+    margin-left: 110px;
+    margin-top: 70px;
+}
+
+#ruler {
+    margin-left: 110px;
+    margin-top: 70px;
+}
+
+#living {
+    margin-bottom: 30px;
+}
+
+#living2 {
+    margin-bottom: 30px;
+}
+
+#living3 {
+    margin-bottom: 30px;
+}
+
+#shun {
+    list-style-type: none; 
+    padding: 0;
+    display: flex; 
+    gap: 10px; 
+    justify-content: center;
+    align-items: right;
+}
+
+#shun img {
+    width: 480px; 
+    height: auto; 
+    border-radius: 3px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    justify-content: center;
+    float: right;
+}
+
+#shun img:hover {
+    transform: scale(1.1); 
+    transition: transform 0.5s; 
+}
+
+#incc {
+    margin-left: 110px;
+    margin-top: 70px;
+}
+
+#eraser {
+    margin-left: 110px;
+    margin-top: 70px;
+}
+
+#notepad {
+    margin-left: 110px;
+    margin-top: 70px;
+}
+
