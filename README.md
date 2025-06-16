@@ -101,12 +101,4 @@ Traditional Web Hosting
 
 📈 Future Enhancements
 
-Add booking form functionality
-Implement payment gateway
-Include customer reviews
-Add virtual property tours
-Mobile app integration
 
-
-Perfect for: Hotel chains, vacation rentals, luxury apartments, property management companies
-Experience modern living at Keta Heights - Where luxury meets comfort.
